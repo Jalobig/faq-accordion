@@ -1,0 +1,72 @@
+.card {
+  position: absolute;
+  z-index: 100;
+  max-width: 37.5rem;
+  width: 90%;
+  background-color: var(--color-white);
+  border-radius: 1rem;
+  margin: -10rem auto 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 2rem;
+  &__row {
+    &__heading {
+      display: flex;
+    }
+    display: flex;
+    justify-content: space-between;
+  }
+  &__heading {
+    font-size: 3.2rem;
+    @media only screen and (max-width:425px) {
+      font-size: 2rem;
+    }
+   
+    &__icon {
+      margin-right: 2rem;
+      @media only screen and (max-width:425px) {
+        margin-right: 1rem;
+      
+      }
+    }
+  }
+  &__faq {
+    padding: 2rem 0;
+    &:not(:first-child){
+      border-top: 1px solid #eee;
+    }
+    @media only screen and (max-width:425px) {
+      padding: 1rem 0;
+      
+    }
+  }
+  &__subheading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.1rem;
+    &:hover{
+      cursor: pointer;
+      color: var(--color-pink-purple);
+    }
+    @media only screen and (max-width:425px) {
+      font-size: 1rem;
+    }
+    
+  }
+  &__btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  &__answer {
+    padding: 1rem 0;
+  }
+  &__text {
+    color: var(--color-gray-purple);
+    @media only screen and (max-width:425px) {
+      font-size: .83rem;
+      line-height: 1.5;
+    }
+  }
+}
