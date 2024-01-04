@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/faq-accordion/static/css/main.1c0f1416.css",
-    "main.js": "/faq-accordion/static/js/main.48aa0ec8.js",
+    "main.js": "/faq-accordion/static/js/main.1a0c06bf.js",
     "static/js/787.f2b2be52.chunk.js": "/faq-accordion/static/js/787.f2b2be52.chunk.js",
     "static/media/background-pattern-mobile.svg": "/faq-accordion/static/media/background-pattern-mobile.bbadbddabee663bba8884648e253e5d2.svg",
     "static/media/background-pattern-desktop.svg": "/faq-accordion/static/media/background-pattern-desktop.621478cf83f8150af60411d3765de0eb.svg",
@@ -10,11 +10,11 @@
     "static/media/icon-plus.svg": "/faq-accordion/static/media/icon-plus.6c5381bcc9a768ea5c3683e11c6bfd6c.svg",
     "static/media/icon-minus.svg": "/faq-accordion/static/media/icon-minus.5575b6de09a1e0deab1dd585ada35f31.svg",
     "main.1c0f1416.css.map": "/faq-accordion/static/css/main.1c0f1416.css.map",
-    "main.48aa0ec8.js.map": "/faq-accordion/static/js/main.48aa0ec8.js.map",
+    "main.1a0c06bf.js.map": "/faq-accordion/static/js/main.1a0c06bf.js.map",
     "787.f2b2be52.chunk.js.map": "/faq-accordion/static/js/787.f2b2be52.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c0f1416.css",
-    "static/js/main.48aa0ec8.js"
+    "static/js/main.1a0c06bf.js"
   ]
 }
