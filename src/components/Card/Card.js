@@ -136,7 +136,7 @@ const Card = () => {
           alt="Icon of a star"
           className={classes.card__heading__icon}
         />
-        <h1 className={classes.card__heading}>FAQs ({left})</h1>
+        <h1 className={classes.card__heading}>FAQs</h1>
       </div>
       {FAQ.map((qa) => (
         <div className={classes.card__faq} key={qa.id}>
